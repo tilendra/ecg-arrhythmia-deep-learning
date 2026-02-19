@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+tensorflow==2.15.0  # or pytorch if preferred
+imbalanced-learn  
+tensorflow-addons
+tensorflow-macos 
+tensorflow-metal
