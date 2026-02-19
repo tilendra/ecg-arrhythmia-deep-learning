@@ -5,10 +5,18 @@ End-to-end deep learning pipeline for classifying cardiac arrhythmias from ECG s
 ## Goal
 Classify heartbeats into 5 classes (N, S, V, F, Q) following AAMI standards using 1D Convolutional Neural Network with Residual Connections.
 
-## Dataset
+## Dataset Download
 - MIT-BIH Arrhythmia Database (PhysioNet)
 - Preprocessed version often used: https://www.kaggle.com/shayanfazeli/heartbeat (MITBIH_train.csv, MITBIH_test.csv)
 - Or download raw from: https://physionet.org/content/mitdb/1.0.0/
+
+# Dataset Details
+- Number of Samples: 109446
+- Number of Categories: 5
+- Sampling Frequency: 125Hz
+- Data Source: Physionet's MIT-BIH Arrhythmia Dataset
+- Classes: ['N': 0, 'S': 1, 'V': 2, 'F': 3, 'Q': 4]
+Remark: All the samples are cropped, downsampled and padded with zeroes if necessary to the fixed dimension of 188.
 
 ## Features
 - Signal preprocessing (normalization, segmentation, bandpass filtering)
@@ -140,6 +148,7 @@ Test Results:
 - Sensitivity: 0.9805
 - Specificity: 0.9962
 - F1-Score: 0.9826
+- ECE: 0.1438
 
 ![alt text](image.png)
 
