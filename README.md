@@ -1,4 +1,4 @@
-# ECG Arrhythmia Classification using 1D CNN on MIT-BIH Dataset
+# ECG Arrhythmia Classification using Hybrid Morphological ResNet-Inspired CNN on MIT-BIH Dataset
 
 End-to-end deep learning pipeline for classifying cardiac arrhythmias from ECG signals.
 
