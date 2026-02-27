@@ -1,0 +1,18 @@
+{
+    "target_fs": 125,
+    "target_length": 187,
+    "n_classes": 5,
+    "class_names": [
+        "N (Normal)",
+        "S (Supraventricular)",
+        "V (Ventricular)",
+        "F (Fusion)",
+        "Q (Unknown)"
+    ],
+    "test_accuracy": 0.9987666727571716,
+    "test_f1": 0.9849653244018555,
+    "test_sensitivity": 0.983850359916687,
+    "test_specificity": 0.9965556859970093,
+    "ece": 0.024785742831361812,
+    "brier_score": 0.0060949936772046
+}

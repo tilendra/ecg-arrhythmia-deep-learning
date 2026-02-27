@@ -143,14 +143,21 @@ Therefore, while algorithms often focus on classifying individual beats into the
 
 ## Results
 Test Results:
-- Loss: 0.4531
-- Accuracy: 0.9827
-- Sensitivity: 0.9805
-- Specificity: 0.9962
-- F1-Score: 0.9826
-- ECE: 0.1438
+- Loss: 0.4348
+- Accuracy: 0.9851
+- Sensitivity: 0.9839
+- Specificity: 0.9966
+- F1-Score: 0.9850
+- Expected Calibration Error (ECE): 0.024786
 
-![alt text](image.png)
+
+![alt text](image-4.png)
+
+![alt text](image-3.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
 
 
 ## Installation
