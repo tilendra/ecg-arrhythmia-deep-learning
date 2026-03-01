@@ -826,6 +826,8 @@ def main():
 
     with tab4:
         st.markdown("<h2 class='sub-header'>Help & Examples</h2>", unsafe_allow_html=True)
+        # Display figure of ECG_Arrhythmia_Classification_arch.png 
+        st.image("ECG_Arrhythmia_Classification_arch.png", caption="ECG Arrhythmia Classification Architecture", width=500)
         
         st.markdown("""
         <div class='info-box'>
@@ -838,6 +840,8 @@ def main():
                 <li><b>Process:</b> Click to detect beats and classify</li>
             </ol>
         </div>
+                    
+        
         
         <div class='success-box'>
             <h4>🎯 Use Case Example</h4>

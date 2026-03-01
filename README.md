@@ -1,4 +1,4 @@
-# ECG Arrhythmia Classification using Hybrid Morphological ResNet-Inspired CNN on MIT-BIH Dataset
+# ECG Arrhythmia Classification using Dual-Input Hybrid Morphological ResNet-Inspired CNN on MIT-BIH Dataset
 
 End-to-end deep learning pipeline for classifying cardiac arrhythmias from ECG signals.
 
@@ -141,6 +141,10 @@ Beyond individual beat classifications, the dataset also contains annotations fo
 
 Therefore, while algorithms often focus on classifying individual beats into the AAMI groups, the raw annotations in the MIT-BIH dataset provide rich information about a wide range of specific arrhythmias and their patterns.
 
+## Model Architecture:
+
+<img src="ECG_Arrhythmia_Classification_arch.png" width="500" />
+
 ## Results
 Test Results:
 - Loss: 0.4348
@@ -150,14 +154,13 @@ Test Results:
 - F1-Score: 0.9850
 - Expected Calibration Error (ECE): 0.024786
 
+<img src="image-4.png" width="400" />
 
-![alt text](image-4.png)
+<img src="image-3.png" width="600" />
 
-![alt text](image-3.png)
+<img src="image-1.png" width="400" />
 
-![alt text](image-1.png)
-
-![alt text](image-2.png)
+<img src="image-2.png" width="400" />
 
 
 ## Installation
