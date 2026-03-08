@@ -22,7 +22,7 @@ joblib==1.5.3
 imbalanced-learn==0.14.1
 h5py==3.15.1
 protobuf==5.29.6
-neurokit2
+neurokit2==0.2.13
 
 # # Keras 2 compatibility (if needed)
 # tf-keras==2.19.0
@@ -31,3 +31,6 @@ neurokit2
 # ipython
 # jupyter
 # black
+
+#Additional
+opencv-python-headless==4.13.0.92
